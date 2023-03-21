@@ -1,4 +1,4 @@
-const out = '';
+let problemName, problem, solution;
 
 async function getText() {
     const res = await fetch('../problems.txt');
