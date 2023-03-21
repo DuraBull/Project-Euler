@@ -1,0 +1,47 @@
+header
+    display: flex
+    position: fixed
+    background: $black
+    z-index: 3
+    width: 100%
+    height: 10vh
+    border-bottom: 1px solid $white
+    align-items: center
+    justify-content: center
+
+main
+    display: flex
+    position: absolute
+    align-self: center
+    justify-content: center
+    height: 80%
+    width: 100%
+    overflow-y: scroll
+    scrollbar-width: none
+    -ms-scrollbar-style: none
+    &::-webkit-scrollbar
+        width: 0
+        height: 0
+
+footer
+    display: flex
+    position: fixed
+    background: $black
+    z-index: 3
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 10vh
+    border-top: 1px solid $white
+    align-items: center
+    justify-content: center
+
+.main-content
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    position: absolute
+    width: 85%
+    height: 100%
+
