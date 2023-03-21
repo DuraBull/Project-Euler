@@ -6,7 +6,9 @@ async function getText() {
     console.log(text);
     console.log(text.length);
 
-    return text.toString();
+    return text.split('\n');
 }
 
 file = getText();
+
+file.text;
