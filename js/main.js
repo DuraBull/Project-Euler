@@ -1,4 +1,4 @@
-let problemName, problem, solution, file;
+let problemName, problem, solution, lines;
 
 async function getText() {
     const res = await fetch('../problems.txt');
@@ -9,6 +9,6 @@ async function getText() {
     return text.split('\n');
 }
 
-file = getText();
+lines = getText();
 
-file.text;
+console.log(lines);
